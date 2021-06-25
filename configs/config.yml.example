@@ -1,0 +1,20 @@
+vbmc:
+
+  hosts:
+    - libvirt_domain_name: core-ocp-cp-1
+      libvirt_uri: qemu:///system
+      ipmi_username: admin
+      ipmi_password: admin
+      ipmi_port: 6230
+
+    - libvirt_domain_name: core-ocp-cp-2
+      libvirt_uri: qemu+ssh://luser@remote-libvirt-host/system
+      ipmi_username: admin
+      ipmi_password: admin
+      ipmi_port: 6231
+      
+    - libvirt_domain_name: core-ocp-cp-3
+      libvirt_uri: qemu:///system
+      ipmi_username: admin
+      ipmi_password: admin
+      ipmi_port: 6232

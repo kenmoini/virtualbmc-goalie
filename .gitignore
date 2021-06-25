@@ -1,0 +1,10 @@
+config.yml
+config.yaml
+/vbmc-goalie
+/vbmcgoalie
+nohup.out
+dist/vbmc-goalie*
+dist/vbmcgoalie*
+.generated
+.generated/
+.generated/*
